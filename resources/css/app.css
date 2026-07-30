@@ -1,10 +1,12 @@
 @import 'tailwindcss';
 @import '../../vendor/livewire/flux/dist/flux.css';
 
+/* stylelint-disable at-rule-no-unknown */
 @source '../views';
 @source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
 @source '../../vendor/livewire/flux-pro/stubs/**/*.blade.php';
 @source '../../vendor/livewire/flux/stubs/**/*.blade.php';
+/* stylelint-enable at-rule-no-unknown */
 
 @custom-variant dark (&:where(.dark, .dark *));
 
@@ -26,6 +28,16 @@
     --color-accent: var(--color-neutral-800);
     --color-accent-content: var(--color-neutral-800);
     --color-accent-foreground: var(--color-white);
+
+    /* Desa Modern Design System v4 Colors */
+    --color-primary: #0284c7;
+    --color-on-primary: #ffffff;
+    --color-secondary: #0ea5e9;
+    --color-accent-green: #059669;
+    --color-background-custom: #f0f9ff;
+    --color-foreground-custom: #0f172a;
+    --color-muted-custom: #eff7fb;
+    --color-border-custom: #e0f0f8;
 }
 
 @layer theme {
