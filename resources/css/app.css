@@ -45,6 +45,12 @@
         --color-accent: var(--color-white);
         --color-accent-content: var(--color-white);
         --color-accent-foreground: var(--color-neutral-800);
+
+        /* Dark mode overrides for Desa Modern Design System v4 */
+        --color-background-custom: #09090b; /* zinc-950 */
+        --color-foreground-custom: #f4f4f5; /* zinc-100 */
+        --color-muted-custom: #18181b;      /* zinc-900 */
+        --color-border-custom: #27272a;     /* zinc-800 */
     }
 }
 
